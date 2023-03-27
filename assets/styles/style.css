@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+
+}
+/* nav*/
+.marginform{
+    margin: 1rem;
+}
+
+header{
+    background-color: #050404e3;
+    min-height: 10vh;
+    color: white;
+}
+/*main*/
+main{
+    background-color: rgb(99, 101, 102);
+    min-height: 80vh;
+    padding: 1rem;
+}
+/*footer*/
+.icono{
+    color: white;
+    font-size: 2.5rem;
+    margin: 0 1rem;
+    min-height: 20vh;
+}
+
+/*contacto*/
+.divcontact{
+    width: 40vw; 
+}
+.menssage{
+    height: 25vh;
+}
+
+/*stats*/
+.tabla {
+    border:1px solid #000000;
+    border-collapse:collapse;
+    padding:5px;
+    background-color: rgb(241, 239, 237);
+}
+.tabla th {
+    border:1px solid #000000;
+    padding:3px;
+    background:#f1eaea;
+}
+.tabla td {
+    border:1px solid #000000;
+    padding:3px;
+}
+
