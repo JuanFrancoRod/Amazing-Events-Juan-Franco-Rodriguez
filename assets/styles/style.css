@@ -53,3 +53,34 @@ main{
     padding:3px;
 }
 
+.card-img-top{
+    width: 100%;
+    height: 40%;
+    object-fit: cover;
+}
+.card {
+    width: 25rem;
+    height: 30rem;
+    background-color: #f3f3f3;
+    
+    
+}
+.card-body{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card a{
+    background-color: #e92868;
+}
+#evento-seleccionado {
+    width: 60%;
+    height: 40%;
+}
+#evento-seleccionado img{
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+}

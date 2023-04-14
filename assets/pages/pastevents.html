@@ -51,70 +51,26 @@
         <div id="carouselExample" class="carousel slide d-flex">
             <div class="carousel-inner d-flex justify-content-center ">
               <div class="carousel-item active">
-                <h3>Home</h3>
-              </div>
-              <div class="carousel-item">
-                <h3>Upcoming Events</h3>
-              </div>
-              <div class="carousel-item">
+                
                 <h3>Past Events</h3>
-              </div>
-              <div class="carousel-item">
-                <h3>Contact</h3>
-              </div>
-              <div class="carousel-item">
-                <h3>Stats</h3>
-              </div>
+              
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+           
           </div>
+        </div>
     </header>
     <main>
       <div class="d-flex flex-row justify-content-around align-items-center flex-wrap">
-        <form class="d-flex flex-wrap">
-          <div class="marginform">
-            <input type="checkbox" name="evento" value="" id="evento" />
-            <label for="evento">Food Fair</label>
-          </div>
-          <div class="marginform">
-            <input type="checkbox" name="evento" value="" id="museo" />
-            <label for="evento">Museum</label>
-          </div>
-          <div class="marginform">
-            <input type="checkbox" name="evento" value="" id="halloween" />
-            <label for="evento">Halloween Night</label>
-          </div>
-          <div class="marginform">
-            <input type="checkbox" name="evento" value="" id="concierto" />
-            <label for="evento">Music Concert</label>
-          </div>
-          <div class="marginform">
-            <input type="checkbox" name="evento" value="" id="carrera" />
-            <label for="evento">Race</label>
-          </div>
-          <div class="marginform">
-            <input type="checkbox" name="evento" value="" id="libros" />
-            <label for="evento">Book Exchange</label>
-          </div>
-          <div class="marginform">
-            <input type="checkbox" name="evento" value="" id="cine" />
-            <label for="evento">Let's go to the cinema</label>
-          </div>
-        </form>
-        <form>
-          <input class="" type="search" />
-          <button type="submit"><i class="bi bi-search"></i></button>
-        </form>
+        <form class="d-flex flex-wrap" id="checkboxs">
+         </form>
+        <label >
+          <input class=""  id="buscador" type="text" />
+          <i class="bi bi-search"></i>
+        </label>
       </div>
-      <div id="eventos" class="d-flex justify-content-evenly flex-wrap">
+      <div id="eventos" class="d-flex justify-content-evenly flex-wrap gap-5 mt-2">
       </div>
+     
     </main>
     <footer class="bg-black d-flex justify-content-around">
       <div class="d-flex">
